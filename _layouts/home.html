@@ -100,7 +100,28 @@ layout: compress
 
                     <div id="inline">
                         
-                        <a href="http://www.maintrg.com/gomaint" target="_blank" rel="noopener noreferrer"> <button type="button" name="myButton">دعنا
+                        <a href="http://www.maintrg.com/gomaint" target="_blank" rel="noopener noreferrer"
+                           
+                           
+                           onclick="
+                                   
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-868973876/lqp4CKfUmdoDELT6rZ4D',
+      'event_callback': callback
+  });
+  return false;
+}
+
+
+                                    "
+                           
+                           > <button type="button" name="myButton">دعنا
                             نتصل
                             بك</button></a>
 
@@ -127,7 +148,7 @@ layout: compress
 
                                 <a href="https://wa.me/966502216566?text=السلام عليكم, اريد الإستفسار عن خدمة صيانة المكيفات" target="_blank" rel="noopener noreferrer" 
         onclick="                          
-function gtag_report_conversion(https://wa.me/966502216566?text=السلام عليكم, اريد الإستفسار عن خدمة صيانة المكيفات) {
+function gtag_report_conversion('https://wa.me/966502216566?text=السلام عليكم, اريد الإستفسار عن خدمة صيانة المكيفات') {
   var callback = function () {
     if (typeof(url) != 'undefined') {
       window.location = url;
